@@ -368,4 +368,17 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 * Vernier Calipers (preferably digital)
 * Soldering Iron and Tin/Lead with rosin flux core
 * Needle nose pliers with cutter
+* Digital Multimeter
+
+## **How to Major Steps and Pain Points:**
+++++++++++UNDER CONSTRUCTION++++++++++
+
+## **Training the object recognition model:**
+++++++++++UNDER CONSTRUCTION++++++++++
+
+## **The Coding Fun:**
+++++++++++UNDER CONSTRUCTION++++++++++
+
+## **References:**
+++++++++++UNDER CONSTRUCTION++++++++++
 
