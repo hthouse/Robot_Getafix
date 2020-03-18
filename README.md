@@ -229,10 +229,10 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 <p>19</p>
 </td>
 <td style="width: 602.2px;">
-<p>Black FFC USB C 90 Degree Angled FPV Flat Slim Thin Ribbon FPC Cable USB Type-C 90 Degree to Standard USB A for sync and Charging (20CM)</p>
+<p>Angled USB C Cable Extension Gold Plated 90 Degree Type C to USB 3.0 Left Angle Male Adapter Data Sync Charging USB-C Cord (90°Type C-USB 3.0 A Left)</p>
 </td>
 <td style="width: 55.8px;">
-<p>&nbsp;$16</p>
+<p>&nbsp;$9</p>
 </td>
 </tr>
 <tr>
@@ -354,7 +354,7 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 <p>Total</p>
 </td>
 <td style="width: 55.8px;">
-<p>&nbsp;$530</p>
+<p>&nbsp;$523</p>
 </td>
 </tr>
 </tbody>
