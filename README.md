@@ -12,7 +12,7 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 * Locomotion, continuous tracks driven by two (x2) DC Motor with metal gearbox.
 * Detect object of interest such as bottles and cups from live camera live feed using deep learning Object-Recognition.
 * Navigate to the object and pickup object and navigate back to starting point.
-* Measure distance object using ultrasonic sensors.
+* Measure object distance using ultrasonic sensors.
 * Gripper clamp robotic arm with two degrees of freedom.
 
 ## **Architecture/ How it all Connects:**
@@ -377,6 +377,9 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 ++++++++++UNDER CONSTRUCTION++++++++++
 
 ## **The Coding Fun:**
+++++++++++UNDER CONSTRUCTION++++++++++
+
+## **Future Upgrades:**
 ++++++++++UNDER CONSTRUCTION++++++++++
 
 ## **References:**
