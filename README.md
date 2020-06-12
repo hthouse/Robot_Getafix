@@ -18,6 +18,8 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 ## **Architecture/ How it all Connects:**
 ![](media/roboarch1.jpg)
 
+## **Components and Specification:**
+
 1.	Robot tank aluminum alloy chassis (SR14-B) with continuous tracks and drive two DC motor 33GB-520 DC6-12V 350 RPM
 2.	CanaKit Raspberry Pi 4B 4GBRAM and 32GBmicroSD Starter Kit
 3.	Camera Day & Night Vision, IR-Cut Video Camera 1080p HD Webcam 5MP OV5647 Sensor for Raspberry Pi
@@ -50,28 +52,6 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 
 The total estimated cost of the items is under $550.
 
-## **Essential items and tools needed for the build:**
-* Screw driver set
-* Power drill
-* 3D printer (I used my Prusa Mendel Iteration-2 (RepRap)
-* Small color monitor with HDMI port, keyboard and mouse
-* Vernier Calipers (preferably digital)
-* Soldering Iron and Tin/Lead with rosin flux core
-* Needle nose pliers with cutter
-* Digital Multimeter
-* MS VS Code
-* MS VOTT
-* Arduino Software (IDE)
-
-## **Lesson Learned and Pain Points:**
-* Stacking the boards vertically is the best option to use the space in the robot platform. 
-* Use appropriate heat sinks and cooling fan to ensure efficient performance of the components.
-* Use screws and bolts and zip locks as much as possible and minimize the use of glue when building your robot.
-* Use snubber and protection circuits to avoid unnecessary noise interference or prevent failure of components. 
-* Measure accurately and edit 3D model files as necessary before printing 3D objects.
-* Labeling images is time taking and laborious.
-* Update your Linux build and libraries including the Pi firmware.
-
 ## **Training the Object Detection Model:**
 __Data Collection__; for this project, I used Google and Bing image search in order to get pictures of my favorite beer bottles and cans. Google Chrome extensions makes it easier to download and organize images, such as “Fatkun Batch Download Image” and “Image Downloader Continued”. 
 Augmenting and Transforming Images, is an important technique to further enhance the training image data by performing basic transformation such as flipping/rotating, grayscale, blurring and injecting random noise into the images. I used this python code to perform the necessary image augmentation <will add link>.
@@ -97,6 +77,27 @@ In case the robot could not detect or loses sight the objects of interest the ro
 As shown in the above section “how things are connected” the robot arm is driven off the Arduino and SHIELD boards linked via serial USB cable to the Raspberry Pi. The robot locomotion is controlled by the Raspberry Pi HAT. One can control all motors and servos from the Arduino or the Pi depending on what you want to achieve or experiment. The robot main code communicates to the Arduino sketch code via serial interface and issues a set of commands defined in the sketch code here.
 <will add link to code> 
 
+## **Lesson Learned and Pain Points:**
+* Stacking the boards vertically is the best option to use the space in the robot platform. 
+* Use appropriate heat sinks and cooling fan to ensure efficient performance of the components.
+* Use screws and bolts and zip locks as much as possible and minimize the use of glue when building your robot.
+* Use snubber and protection circuits to avoid unnecessary noise interference or prevent failure of components. 
+* Measure accurately and edit 3D model files as necessary before printing 3D objects.
+* Labeling images is time taking and laborious.
+* Update your Linux build and libraries including the Pi firmware.
+
+## **Essential items and tools needed for the build:**
+* Screw driver set
+* Power drill
+* 3D printer (I used my Prusa Mendel Iteration-2 (RepRap)
+* Small color monitor with HDMI port, keyboard and mouse
+* Vernier Calipers (preferably digital)
+* Soldering Iron and Tin/Lead with rosin flux core
+* Needle nose pliers with cutter
+* Digital Multimeter
+* MS VS Code
+* MS VOTT
+* Arduino Software (IDE)
 
 ## **Future Upgrades:**
 * Adapt the use of Robotic Operating System (ROS).
