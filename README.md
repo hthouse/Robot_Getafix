@@ -17,347 +17,37 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 ## **Architecture/ How it all Connects:**
 ![](media/roboarch1.jpg)
 
-<table style="width: 676px;" border="1">
-<tbody>
-<tr>
-<td style="width: 618.2px;" colspan="2">
-<p><strong>Components and Specification:</strong></p>
-</td>
-<td style="width: 55.8px;">
-<p><strong>Cost</strong></p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>1</p>
-</td>
-<td style="width: 602.2px;">
-<p>Robot tank aluminum alloy chassis (SR14-B) with continuous tracks and drive two DC motor 33GB-520 DC6-12V 350 RPM</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$33</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>2</p>
-</td>
-<td style="width: 602.2px;">
-<p>CanaKit Raspberry Pi 4B 4GBRAM and 32GBmicroSD Starter Kit</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$100</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>3</p>
-</td>
-<td style="width: 602.2px;">
-<p>Camera Day &amp; Night Vision, IR-Cut Video Camera 1080p HD Webcam 5MP OV5647 Sensor for Raspberry Pi</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$29</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>4</p>
-</td>
-<td style="width: 602.2px;">
-<p>Heatsink Kit (x20pcs) Aluminum + Copper + 3M 8810 Thermal Conductive Adhesive Tape for Cooling Pi and Arduino electronics</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$8</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>5</p>
-</td>
-<td style="width: 602.2px;">
-<p>Cooling fan (included in Raspberry Pi Starter Kit)</p>
-</td>
-<td style="width: 55.8px;">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>6</p>
-</td>
-<td style="width: 602.2px;">
-<p>Full Function Motor HAT, Robot Expansion Board Supports Stepper/Motor/Servo/IR Remote for Raspberry Pi 4B</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$28</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>7</p>
-</td>
-<td style="width: 602.2px;">
-<p>Coral USB Accelerator</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$75</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>8</p>
-</td>
-<td style="width: 602.2px;">
-<p>Arduino UNO R3 Complete Starter Kit</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$40</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>9</p>
-</td>
-<td style="width: 602.2px;">
-<p>High Speed SG5010 Digital Servo Motor (38g) for Arduino UNO (4pcs)</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$24</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>10</p>
-</td>
-<td style="width: 602.2px;">
-<p>Stepper motor 28byj-48 (include in the Arduino kit)</p>
-</td>
-<td style="width: 55.8px;">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>11</p>
-</td>
-<td style="width: 602.2px;">
-<p>Adafruit Motor/Stepper/Servo Shield for Arduino v2.3 Kit</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$19</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>12</p>
-</td>
-<td style="width: 602.2px;">
-<p>Ultrasonic Sensor HC-SR04 (include in the Arduino kit)</p>
-</td>
-<td style="width: 55.8px;">&nbsp;</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>13</p>
-</td>
-<td style="width: 602.2px;">
-<p>Power Supply Module 2.6V-5.5V 3A to 5V 2A Mini DC-DC Battery Booster USB Mobile Step-up Power Supply with Battery Indicator</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$8</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>14</p>
-</td>
-<td style="width: 602.2px;">
-<p>Adafruit PowerBoost 1000C Battery boost and Charger</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$23</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>15</p>
-</td>
-<td style="width: 602.2px;">
-<p>Charger PCB BMS Protection Board-18650 for Li-ion Lithium Battery Cell 1S 3.7V 4A (5pcs)</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$8</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>16</p>
-</td>
-<td style="width: 602.2px;">
-<p>Six (6P, 20100mAH total) LG MJ1 18650 3500mAh 3.6V Battery, (6pcs)</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$38</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>17</p>
-</td>
-<td style="width: 602.2px;">
-<p>USB-A to USB-C Cable 90 Degree Plug USB 3.0 Cable 0.8ft/0.25m</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$8</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>18</p>
-</td>
-<td style="width: 602.2px;">
-<p>USB-A to USB-B Cable 90 Degree Plug USB 2.0 Cable 0.5ft</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$6</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>19</p>
-</td>
-<td style="width: 602.2px;">
-<p>Angled USB C Cable Extension Gold Plated 90 Degree Type C to USB 3.0 Left Angle Male Adapter Data Sync Charging USB-C Cord (90°Type C-USB 3.0 A Left)</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$9</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>20</p>
-</td>
-<td style="width: 602.2px;">
-<p>One each 1KOhm and 2KOhm resistors (include in the Arduino kit)</p>
-</td>
-<td style="width: 55.8px;">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>21</p>
-</td>
-<td style="width: 602.2px;">
-<p>104nF (x2 pcs) and 47nF (x4pcs) Ceramic Disc Capacitors (include in the Arduino kit)</p>
-</td>
-<td style="width: 55.8px;">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>22</p>
-</td>
-<td style="width: 602.2px;">
-<p>Toggle switch DPDT</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$10</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>23</p>
-</td>
-<td style="width: 602.2px;">
-<p>0.7 and 0.5mm screws, nuts and washers set</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$16</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>24</p>
-</td>
-<td style="width: 602.2px;">
-<p>Motor Coupler 5mm with two screws and preferably flex fastener</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$16</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>25</p>
-</td>
-<td style="width: 602.2px;">
-<p>5mm aluminum tube</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$5</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>26</p>
-</td>
-<td style="width: 602.2px;">
-<p>PLA 1.75mm 3D printer filament</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$20</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>27</p>
-</td>
-<td style="width: 602.2px;">
-<p>3D printed stepper motor 28byj-48 mount support</p>
-<p>(<a href="https://www.thingiverse.com/thing:3020621">https://www.thingiverse.com/thing:3020621</a>)</p>
-</td>
-<td style="width: 55.8px;">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>28</p>
-</td>
-<td style="width: 602.2px;">
-<p>3D printed gripper clamp robot arm</p>
-<p>(<a href="https://www.thingiverse.com/thing:2195839">https://www.thingiverse.com/thing:2195839</a>)</p>
-</td>
-<td style="width: 55.8px;">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">
-<p>29</p>
-</td>
-<td style="width: 602.2px;">
-<p>3D printed camera and ultrasound mount support</p>
-<p>(<a href="https://www.thingiverse.com/thing:3476484">https://www.thingiverse.com/thing:3476484</a>)</p>
-</td>
-<td style="width: 55.8px;">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td style="width: 16px;">&nbsp;</td>
-<td style="width: 602.2px;">
-<p>Total</p>
-</td>
-<td style="width: 55.8px;">
-<p>&nbsp;$523</p>
-</td>
-</tr>
-</tbody>
-</table>
+1.	Robot tank aluminum alloy chassis (SR14-B) with continuous tracks and drive two DC motor 33GB-520 DC6-12V 350 RPM
+2.	CanaKit Raspberry Pi 4B 4GBRAM and 32GBmicroSD Starter Kit
+3.	Camera Day & Night Vision, IR-Cut Video Camera 1080p HD Webcam 5MP OV5647 Sensor for Raspberry Pi
+4.	Heatsink Kit (x20pcs) Aluminum + Copper + 3M 8810 Thermal Conductive Adhesive Tape for Cooling Pi and Arduino electronics
+5.	Cooling fan (included in Raspberry Pi Starter Kit)
+6.	Full Function Motor HAT, Robot Expansion Board Supports Stepper/Motor/Servo/IR Remote for Raspberry Pi 4B
+7.	Coral USB Accelerator
+8.	Arduino UNO R3 Complete Starter Kit
+9.	High Speed SG5010 Digital Servo Motor (38g) for Arduino UNO (4pcs)
+10.	Stepper motor 28byj-48 (include in the Arduino kit)
+11.	Adafruit Motor/Stepper/Servo Shield for Arduino v2.3 Kit
+12.	Ultrasonic Sensor HC-SR04 (include in the Arduino kit)
+13.	Power Supply Module 2.6V-5.5V 3A to 5V 2A Mini DC-DC Battery Booster USB Mobile Step-up Power Supply with Battery Indicator
+14.	Adafruit PowerBoost 1000C Battery boost and Charger
+15.	Charger PCB BMS Protection Board-18650 for Li-ion Lithium Battery Cell 1S 3.7V 4A (5pcs)
+16.	Six (6P, 20100mAH total) LG MJ1 18650 3500mAh 3.6V Battery, (6pcs)
+17.	USB-A to USB-C Cable 90 Degree Plug USB 3.0 Cable 0.8ft/0.25m
+18.	USB-A to USB-B Cable 90 Degree Plug USB 2.0 Cable 0.5ft
+19.	Angled USB C Cable Extension Gold Plated 90 Degree Type C to USB 3.0 Left Angle Male Adapter Data Sync Charging USB-C Cord (90°Type C-USB 3.0 A Left)
+20.	One each 1KOhm and 2KOhm resistors (include in the Arduino kit)
+21.	104nF (x2 pcs) and 47nF (x4pcs) Ceramic Disc Capacitors (include in the Arduino kit)
+22.	Toggle switch DPDT
+23.	0.7 and 0.5mm screws, nuts and washers set
+24.	Motor Coupler 5mm with two screws and preferably flex fastener
+25.	5mm aluminum tube
+26.	PLA 1.75mm 3D printer filament
+27.	3D printed stepper motor 28byj-48 mount support (https://www.thingiverse.com/thing:3020621)
+28.	3D printed gripper clamp robot arm (https://www.thingiverse.com/thing:2195839)
+29.	3D printed camera and ultrasound mount support (https://www.thingiverse.com/thing:3476484)
+
+The total estimated cost of the items is under $550.
 
 ## **Essential items and tools needed for the build:**
 * Screw driver set
