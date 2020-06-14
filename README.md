@@ -34,8 +34,8 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 12.	Ultrasonic Sensor HC-SR04 (include in the Arduino kit)
 13.	Power Supply Module 2.6V-5.5V 3A to 5V 2A Mini DC-DC Battery Booster USB Mobile Step-up Power Supply with Battery Indicator
 14.	Adafruit PowerBoost 1000C Battery boost and Charger
-15.	Charger PCB BMS Protection Board-18650 for Li-ion Lithium Battery Cell 1S 3.7V 4A (5pcs)
-16.	Six (6P, 20100mAH total) LG MJ1 18650 3500mAh 3.6V Battery, (6pcs)
+15.	Charger PCB BMS Protection Board-18650 for Li-ion Lithium Battery Cell 1S 3.7V 4A
+16.	Six (6P, 20100mAH total) LG MJ1 18650 3500mAh 3.6V Battery
 17.	USB-A to USB-C Cable 90 Degree Plug USB 3.0 Cable 0.8ft/0.25m
 18.	USB-A to USB-B Cable 90 Degree Plug USB 2.0 Cable 0.5ft
 19.	Angled USB C Cable Extension Gold Plated 90 Degree Type C to USB 3.0 Left Angle Male Adapter Data Sync Charging USB-C Cord (90°Type C-USB 3.0 A Left)
@@ -54,8 +54,8 @@ The total estimated cost of the items is under $550.
 
 ## **Training the Object Detection Model:**
 __Data Collection__; for this project, I used Google and Bing image search in order to get pictures of my favorite beer bottles and cans. Google Chrome extensions makes it easier to download and organize images, such as “Fatkun Batch Download Image” and “Image Downloader Continued”. 
-Augmenting and Transforming Images, is an important technique to further enhance the training image data by performing basic transformation such as flipping/rotating, grayscale, blurring and injecting random noise into the images. I used this python code to perform the necessary image augmentation <will add link>.
-Labeling the Images; Microsoft Visual Object Tagging Tool is one of the great tools that can be used to label images. Alternatively, Google Cloud AutoML Vision services for Custom Machine Learning Models can be used after uploading the images to Google Cloud Storage.  I used eight lables that include cups, water bottle and beers (jucifer, lagunita ipa, corona, guinness, heineken).I have uploaded sample dataset that I used to train the custom model [__here__](https://github.com/hthouse/Robot_Getafix/blob/master/sample_dataset/images_lables_pascal_voc.zip).
+Augmenting and Transforming Images, is an important technique to further enhance the training image data by performing basic transformation such as flipping/rotating, grayscale, blurring and injecting random noise into the images. I used this python code to perform the necessary image augmentation ...will add link to code
+Labeling the Images; Microsoft Visual Object Tagging Tool is one of the great tools that can be used to label images. Alternatively, Google Cloud AutoML Vision services for Custom Machine Learning Models can be used after uploading the images to Google Cloud Storage.  I used eight lables that include cups, water bottle and beers (jucifer, lagunita ipa, corona, guinness, heineken).I have uploaded sample dataset that used to train the custom model (https://github.com/hthouse/Robot_Getafix/blob/master/sample_dataset/images_lables_pascal_voc.zip).
 
 __Training Model__;  An easier way to perform custom object detection model training is to do transfer training using the MobileNet SDD model as detailed here (https://coral.ai/docs/edgetpu/retrain-detection/#requirements). Alternatively, Google Cloud AutoML Vision services can be used to train TensorFlow lite models that works on the Coral edge TPU.
 
@@ -76,7 +76,7 @@ The object is picked when the object is within the horizontal target zone lines 
 
 In case the robot could not detect or loses sight the objects of interest the robot main code executes a search maneuver which I call the “Rooster Move”, by moving forward and back and rotating side to side until it detects and locks on the object.
 As shown in the above section “how things are connected” the robot arm is driven off the Arduino and SHIELD boards linked via serial USB cable to the Raspberry Pi. The robot locomotion is controlled by the Raspberry Pi HAT. One can control all motors and servos from the Arduino or the Pi depending on what you want to achieve or experiment. The robot main code communicates to the Arduino sketch code via serial interface and issues a set of commands defined in the sketch code here.
-...will add link to code>
+...will add link to code.
 
 ## **Lesson Learned and Pain Points:**
 * Stacking the boards vertically is the best option to use the space in the robot platform. 
@@ -101,7 +101,7 @@ As shown in the above section “how things are connected” the robot arm is dr
 * Arduino Software (IDE)
 
 ## **Future Upgrades:**
-* Adapt the use of Robotic Operating System (ROS).
+* Use Robotic Operating System (ROS).
 * Use wide angle view camera lens with fisheye correction.
 * Use Accelerometer and Gyroscope sensor to identify the exact orientation and motion of the robot relative to the detected object of interest.
 * Add infrared based distance sensor to increase accurately of distance measurement. 
