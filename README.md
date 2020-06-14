@@ -71,11 +71,12 @@ The dynamic horizontal target zone is made out of two dynamic vertical lines tha
 
 ![](media/getafix_robot_main_code_flow.jpg)
 
-The object is picked when the object is within the horizontal target zone lines and the detected object distance is below the set minimum or the object detection bounding box frame width has reached the set maximum value. Then the robot is close enough to actuate the robot arm and pick up the object of interest. Once the object is picked the robot main code switches the object detection inference model to the pre-trained model and initializes the necessary parameters and, starts looking for the second object of interest that is a person in the room. And, similarly targets and moves to the person and drops the object close to the person. Here is the robot main code <will add link to code>
+The object is picked when the object is within the horizontal target zone lines and the detected object distance is below the set minimum or the object detection bounding box frame width has reached the set maximum value. Then the robot is close enough to actuate the robot arm and pick up the object of interest. Once the object is picked the robot main code switches the object detection inference model to the pre-trained model and initializes the necessary parameters and, starts looking for the second object of interest that is a person in the room. And, similarly targets and moves to the person and drops the object close to the person. Here is the robot main code.
+...will add link to code
 
 In case the robot could not detect or loses sight the objects of interest the robot main code executes a search maneuver which I call the “Rooster Move”, by moving forward and back and rotating side to side until it detects and locks on the object.
 As shown in the above section “how things are connected” the robot arm is driven off the Arduino and SHIELD boards linked via serial USB cable to the Raspberry Pi. The robot locomotion is controlled by the Raspberry Pi HAT. One can control all motors and servos from the Arduino or the Pi depending on what you want to achieve or experiment. The robot main code communicates to the Arduino sketch code via serial interface and issues a set of commands defined in the sketch code here.
-<will add link to code> 
+...will add link to code>
 
 ## **Lesson Learned and Pain Points:**
 * Stacking the boards vertically is the best option to use the space in the robot platform. 
