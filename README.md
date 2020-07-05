@@ -103,7 +103,7 @@ As shown in the above section “how things are connected” the robot arm is dr
 * Adapt the use of Robotic Operating System (ROS).
 * Use wide angle view camera lens with fisheye correction.
 * Use Accelerometer and Gyroscope sensor to identify the exact orientation and motion of the robot relative to the detected object of interest.
-* Add infrared based distance sensor to increase accurately of distance measurement. 
+* Add infrared based distance sensor to increase accuracy of distance measurement. 
 * Grip sensor on the robot arm clamp.
 * Upgrade power modules.
 * Current sink sensing to identify load on the servo’s and motor drives.
