@@ -75,8 +75,7 @@ The dynamic horizontal target zone is made out of two dynamic vertical lines tha
 The object is picked when the object is within the horizontal target zone lines and the detected object distance is below the set minimum or the object detection bounding box frame width has reached the set maximum value. Then the robot is close enough to actuate the robot arm and pick up the object of interest. Once the object is picked the robot main code switches the object detection inference model to the pre-trained model and initializes the necessary parameters and, starts looking for the second object of interest that is a person in the room. And, similarly targets and moves to the person and drops the object close to the person. Here is the robot main code <will add link to code>
 
 In case the robot could not detect or loses sight the objects of interest the robot main code executes a search maneuver which I call the “Rooster Move”, by moving forward and back and rotating side to side until it detects and locks on the object.
-As shown in the above section “how things are connected” the robot arm is driven off the Arduino and SHIELD boards linked via serial USB cable to the Raspberry Pi. The robot locomotion is controlled by the Raspberry Pi HAT. One can control all motors and servos from the Arduino or the Pi depending on what you want to achieve or experiment. The robot main code communicates to the Arduino sketch code via serial interface and issues a set of commands defined in the sketch code here.
-<will add link to code> 
+As shown in the above section “how things are connected” the robot arm is driven off the Arduino and SHIELD boards linked via serial USB cable to the Raspberry Pi. The robot locomotion is controlled by the Raspberry Pi HAT. One can control all motors and servos from the Arduino or the Pi depending on what you want to achieve or experiment. The robot main code communicates to the Arduino sketch code via serial interface and issues a set of commands defined in the sketch code [__here__](https://github.com/hthouse/Robot_Getafix/blob/master/src/robot_arm_servo_sketch.ino)
 
 ## **Lesson Learned and Pain Points:**
 * Stacking the boards vertically is the best option to use the space in the robot platform. 
@@ -114,5 +113,13 @@ As shown in the above section “how things are connected” the robot arm is dr
 
 
 ## **References:**
+Google Coral, “Examples Project Tutorials.” Coral, https://coral.ai/examples/
+Yoshikawa, Hayato. “Making a Banana Seeker Robot with Coral Edge TPU.” Medium, Medium, 2 May 2019, https://medium.com/@hayatoy/making-a-banana-seeker-robot-with-coral-edge-tpu-169c993fc370
+Shorten, C., Khoshgoftaar, T.M. A survey on Image Data Augmentation for Deep Learning. J Big Data 6, 60 (2019). https://doi.org/10.1186/s40537-019-0197-0
+Adrian Rosebrock, “Blur detection with OpenCV” pyimagesearch, 15September 2015, https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
+Pertuz, Said et al. “Analysis of focus measure operators for shape-from-focus.” Pattern Recognit. 46 (2013): 1415-1432.
+Xu, Xin et al. “Robust automatic focus algorithm for low contrast images using a new contrast measure.” Sensors (Basel, Switzerland) vol. 11,9 (2011): 8281-94. doi:10.3390/s110908281
+
+
 ++++++++++UNDER CONSTRUCTION++++++++++
 
