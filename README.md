@@ -13,7 +13,7 @@ I called the first iteration robot that provides basic capabilities Getafix afte
 * Detect object of interest such as beer bottles, cans and cups from live camera live feed using deep learning Object-Recognition.
 * Navigate to the object and pickup object and navigate back to starting point.
 * Measure object distance using ultrasonic sensors.
-* Gripper clamp robotic arm with two degrees of freedom.
+* Gripper clamp robotic arm with three degrees of freedom.
 
 ## **Architecture/ How it all Connects:**
 ![](media/roboarch1.jpg)
