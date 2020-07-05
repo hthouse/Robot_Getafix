@@ -113,14 +113,12 @@ As shown in the above section “how things are connected” the robot arm is dr
 
 
 ## **References:**
-1. Google Coral, “Examples Project Tutorials.” Coral, https://coral.ai/examples/
-2. Yoshikawa, Hayato. “Making a Banana Seeker Robot with Coral Edge TPU.” Medium, Medium, 2 May 2019, https://medium.com/@hayatoy/making-a-banana-seeker-robot-with-coral-edge-tpu-169c993fc370
-3. Shorten, C., Khoshgoftaar, T.M. A survey on Image Data Augmentation for Deep Learning. J Big Data 6, 60 (2019). https://doi.org/10.1186/s40537-019-0197-0
-4. Adrian Rosebrock, “Blur detection with OpenCV” pyimagesearch, 15September 2015, https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
-5. Pertuz, Said et al. “Analysis of focus measure operators for shape-from-focus.” Pattern Recognit. 46 (2013): 1415-1432.
-6. Xu, Xin et al. “Robust automatic focus algorithm for low contrast images using a new contrast measure.” Sensors (Basel, Switzerland) vol. 11,9 (2011): 8281-94. doi:10.3390/s110908281
+1. Google Coral, “Retrain an Object Detection Model.” Coral, https://coral.ai/docs/edgetpu/retrain-detection/#initiate-retraining
+2. Google Coral, “Examples Project Tutorials.” Coral, https://coral.ai/examples/
+3. Yoshikawa, Hayato. “Making a Banana Seeker Robot with Coral Edge TPU.” Medium, Medium, 2 May 2019, https://medium.com/@hayatoy/making-a-banana-seeker-robot-with-coral-edge-tpu-169c993fc370
+4. Shorten, C., Khoshgoftaar, T.M. A survey on Image Data Augmentation for Deep Learning. J Big Data 6, 60 (2019). https://doi.org/10.1186/s40537-019-0197-0
+5. Adrian Rosebrock, “Blur detection with OpenCV” pyimagesearch, 15September 2015, https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
+6. Pertuz, Said et al. “Analysis of focus measure operators for shape-from-focus.” Pattern Recognit. 46 (2013): 1415-1432.
+7. Xu, Xin et al. “Robust automatic focus algorithm for low contrast images using a new contrast measure.” Sensors (Basel, Switzerland) vol. 11,9 (2011): 8281-94. doi:10.3390/s110908281
 
-
-
-++++++++++UNDER CONSTRUCTION++++++++++
 
